@@ -6,8 +6,12 @@ An AI-Powered Waste Identification and Responsible Disposal Assistant aligned wi
 WasteWise AI helps users identify common waste materials using computer vision and provides accurate, grounded disposal guidance powered by Retrieval-Augmented Generation (RAG) and IBM Granite LLMs.
 
 ## Project Structure
-- `data/`: Contains raw datasets and curated knowledge base.
+- `data/`: Contains dataset metadata, split manifests, visual samples, and curated knowledge base. *(Note: The raw RealWaste image dataset is excluded from the repository via `.gitignore`).*
   - `data/knowledge_base/`: Structured recycling guidelines and verification sources for RAG.
+  - `data/dataset_splits.json`: Stratified Train/Val/Test split manifest.
+  - `data/class_to_idx.json`: Class mapping dictionary for 9 waste categories.
+  - `data/dataset_samples.png`: Representative sample grid visualization.
+- `models/`: Trained model weights checkpoint (`resnet18_best.pth`) and evaluation results.
 - `src/`: Core Python modules (CV classifier, RAG retriever, LLM integration).
 - `web/`: Frontend interface for image upload and guidance presentation.
 - `tests/`: Automated test suite.
