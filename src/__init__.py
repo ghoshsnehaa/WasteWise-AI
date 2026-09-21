@@ -1,0 +1,3 @@
+"""
+WasteWise AI Source Package
+"""

@@ -1,0 +1,9 @@
+# Core dependencies for WasteWise AI
+torch
+torchvision
+pillow
+matplotlib
+scikit-learn
+streamlit
+ibm-watsonx-ai
+

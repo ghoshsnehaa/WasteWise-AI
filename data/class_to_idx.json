@@ -1,0 +1,24 @@
+{
+  "class_to_idx": {
+    "cardboard": 0,
+    "food_organics": 1,
+    "glass": 2,
+    "metal": 3,
+    "miscellaneous_trash": 4,
+    "paper": 5,
+    "plastic": 6,
+    "textile_trash": 7,
+    "vegetation": 8
+  },
+  "idx_to_class": {
+    "0": "cardboard",
+    "1": "food_organics",
+    "2": "glass",
+    "3": "metal",
+    "4": "miscellaneous_trash",
+    "5": "paper",
+    "6": "plastic",
+    "7": "textile_trash",
+    "8": "vegetation"
+  }
+}

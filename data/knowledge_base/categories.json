@@ -1,0 +1,280 @@
+{
+  "schema_version": "1.0",
+  "description": "Structured disposal and recycling knowledge base grounded in India Solid Waste Management Rules, 2026 and Plastic Waste Management Rules (MoEFCC / CPCB).",
+  "categories": [
+    {
+      "id": "cardboard",
+      "display_name": "Cardboard",
+      "description": "Corrugated shipping boxes, paperboard cartons, packaging containers, and cereal boxes.",
+      "general_disposal_category": "Dry Waste / Recyclable Packaging",
+      "guidance": {
+        "summary": "Cardboard should be segregated as dry waste for recycling, provided it is clean and free of food grease.",
+        "do_s": [
+          "Flatten boxes to optimize space in dry waste collection containers.",
+          "Keep cardboard dry and separate from kitchen wet waste.",
+          "Hand over clean cardboard to dry waste collection centers (DWCCs) or local scrap aggregators."
+        ],
+        "dont_s": [
+          "Do not mix cardboard contaminated with food grease or oil into dry recycling streams.",
+          "Avoid leaving cardboard exposed to rain or moisture before collection."
+        ],
+        "preparation_steps": [
+          "Empty all contents from the box.",
+          "Remove plastic packing tapes and styrofoam inserts.",
+          "Flatten the cardboard box."
+        ],
+        "environmental_impact_note": "Proper segregation of cardboard supports paper pulp recovery and prevents dry recyclables from decomposing in landfills."
+      },
+      "verification_metadata": {
+        "status": "verified_general_guidance",
+        "source_name": "MoEFCC - Solid Waste Management Rules, 2026",
+        "source_url": "https://cpcb.nic.in/solid-waste-management/",
+        "source_type": "government",
+        "last_verified": "2026-09-13"
+      }
+    },
+    {
+      "id": "food_organics",
+      "display_name": "Food Organics",
+      "description": "Vegetable peels, fruit scraps, leftover food, coffee grounds, and eggshells.",
+      "general_disposal_category": "Wet Waste / Biodegradable Waste",
+      "guidance": {
+        "summary": "Food organics must be segregated as wet waste at source for home composting or municipal organic waste processing.",
+        "do_s": [
+          "Segregate all food scraps and kitchen waste in wet waste bins.",
+          "Use home composting or municipal bio-degradable waste collection streams.",
+          "Ensure food waste is handed over regularly to local waste collection services."
+        ],
+        "dont_s": [
+          "Do not mix plastic wrappers, carry bags, fruit stickers, or metal foil with food waste.",
+          "Do not dispose of kitchen food waste in open drains or public spaces."
+        ],
+        "preparation_steps": [
+          "Scrape leftover food into the designated wet waste bin.",
+          "Remove any synthetic packaging, plastic stickers, or rubber bands."
+        ],
+        "environmental_impact_note": "Composting or biomethanation of wet waste produces organic fertilizer and biogas while preventing methane emissions in dumpsites."
+      },
+      "verification_metadata": {
+        "status": "verified_general_guidance",
+        "source_name": "MoEFCC - Solid Waste Management Rules, 2026",
+        "source_url": "https://cpcb.nic.in/solid-waste-management/",
+        "source_type": "government",
+        "last_verified": "2026-09-13"
+      }
+    },
+    {
+      "id": "glass",
+      "display_name": "Glass",
+      "description": "Glass beverage bottles, food jars, and glass containers.",
+      "general_disposal_category": "Dry Waste / Glass Recyclables",
+      "guidance": {
+        "summary": "Glass bottles and jars are recyclable dry waste when segregated carefully to prevent breakage.",
+        "do_s": [
+          "Rinse glass containers with water to remove food residues.",
+          "Segregate intact glass bottles as dry waste or return reusable glass bottles to deposit schemes.",
+          "Handle glass carefully to ensure safety for waste collectors."
+        ],
+        "dont_s": [
+          "Do not mix mirror glass, window panes, or ceramic pottery with container glass bottles.",
+          "Do not throw broken glass loosely into general collection bins without protective wrapping."
+        ],
+        "preparation_steps": [
+          "Rinse container thoroughly.",
+          "Separate plastic or metal caps for individual dry waste sorting.",
+          "Store safely until dry waste collection."
+        ],
+        "environmental_impact_note": "Glass recycling conserves raw minerals and energy required for cullet melting."
+      },
+      "verification_metadata": {
+        "status": "verified_general_guidance",
+        "source_name": "CPCB - Solid Waste Management",
+        "source_url": "https://cpcb.nic.in/solid-waste-management/",
+        "source_type": "government",
+        "last_verified": "2026-09-13"
+      }
+    },
+    {
+      "id": "metal",
+      "display_name": "Metal",
+      "description": "Aluminum beverage cans, tin food cans, metal bottle caps, and clean foil.",
+      "general_disposal_category": "Dry Waste / Scrap Metal",
+      "guidance": {
+        "summary": "Metals have high scrap recovery value and should be segregated as dry waste for recycling.",
+        "do_s": [
+          "Rinse metal cans to remove liquid or food residue.",
+          "Segregate clean metal items into dry waste.",
+          "Hand over scrap metals to authorized recyclers or local scrap aggregators."
+        ],
+        "dont_s": [
+          "Do not dispose of pressurized aerosol cans or chemical containers in general trash unless completely empty and safe.",
+          "Do not mix oily or chemical metal containers with clean dry waste."
+        ],
+        "preparation_steps": [
+          "Rinse out contents.",
+          "Allow metal cans to dry.",
+          "Separate non-metal attachments if possible."
+        ],
+        "environmental_impact_note": "Metal recycling significantly reduces energy consumption and industrial mining footprint."
+      },
+      "verification_metadata": {
+        "status": "verified_general_guidance",
+        "source_name": "CPCB - Solid Waste Management",
+        "source_url": "https://cpcb.nic.in/solid-waste-management/",
+        "source_type": "government",
+        "last_verified": "2026-09-13"
+      }
+    },
+    {
+      "id": "miscellaneous_trash",
+      "display_name": "Miscellaneous Trash",
+      "description": "Broad heterogeneous category containing composite items, non-standard materials, or mixed non-recyclables.",
+      "general_disposal_category": "Broad Category / Requires Item-Specific Handling",
+      "guidance": {
+        "summary": "This category represents a broad, mixed group of objects. Disposal rules depend on the specific material composition and local municipal authority guidelines.",
+        "do_s": [
+          "Check if any component of the item (metal, hard plastic, paper) can be separated into dry waste.",
+          "Consult local Urban Local Body (ULB) rules for reject waste or domestic hazardous waste disposal.",
+          "Keep e-waste, batteries, or medical items strictly out of mixed trash."
+        ],
+        "dont_s": [
+          "Do not assume all miscellaneous items automatically belong in general landfill waste.",
+          "Do not mix hazardous chemicals or electronic accessories into general waste streams."
+        ],
+        "preparation_steps": [
+          "Inspect the item for recyclable sub-components.",
+          "Separate recyclable parts from non-recyclable non-hazardous rejects.",
+          "Follow local municipality guidelines for reject waste management."
+        ],
+        "environmental_impact_note": "Proper sorting of mixed products reduces reject volume sent to sanitary landfills or waste-to-energy plants."
+      },
+      "verification_metadata": {
+        "status": "partially_verified",
+        "source_name": "MoEFCC & CPCB - Solid Waste Management",
+        "source_url": "https://cpcb.nic.in/solid-waste-management/",
+        "source_type": "government",
+        "last_verified": "2026-09-13"
+      }
+    },
+    {
+      "id": "paper",
+      "display_name": "Paper",
+      "description": "Newspapers, office paper, magazines, notebooks, mail, and paper bags.",
+      "general_disposal_category": "Dry Waste / Paper Recyclables",
+      "guidance": {
+        "summary": "Clean, dry paper is a primary recyclable material under source segregation rules.",
+        "do_s": [
+          "Keep paper clean and dry in the dry waste container.",
+          "Hand over paper to local dry waste collection centers or scrap aggregators.",
+          "Bundle newspapers and cardboard separately for easy handling."
+        ],
+        "dont_s": [
+          "Do not mix paper soiled with food, grease, or liquids into dry recycling.",
+          "Do not burn paper waste in open areas (prohibited under clean air regulations)."
+        ],
+        "preparation_steps": [
+          "Remove plastic wrappings, pins, or covers.",
+          "Keep paper flat, clean, and dry."
+        ],
+        "environmental_impact_note": "Recycling clean paper saves forest resources, reduces water consumption, and supports local circular supply chains."
+      },
+      "verification_metadata": {
+        "status": "verified_general_guidance",
+        "source_name": "MoEFCC - Solid Waste Management Rules, 2026",
+        "source_url": "https://cpcb.nic.in/solid-waste-management/",
+        "source_type": "government",
+        "last_verified": "2026-09-13"
+      }
+    },
+    {
+      "id": "plastic",
+      "display_name": "Plastic",
+      "description": "Rigid plastic bottles, milk jugs, food containers, tubs, and plastic packaging.",
+      "general_disposal_category": "Dry Waste / Plastic Waste Management Rules",
+      "guidance": {
+        "summary": "Plastics should be segregated at source into dry waste for processing under Plastic Waste Management Rules and EPR frameworks.",
+        "do_s": [
+          "Rinse out food or beverage residues from plastic containers.",
+          "Segregate clean plastic items into dry waste for collection by local Urban Local Bodies (ULBs) or registered recyclers.",
+          "Check for numerical plastic identification codes (#1 PETE, #2 HDPE, etc.) where available."
+        ],
+        "dont_s": [
+          "Do not burn plastic waste under any circumstances (causes toxic emissions).",
+          "Do not dispose of plastic items in storm drains or water bodies."
+        ],
+        "preparation_steps": [
+          "Empty and rinse the container.",
+          "Allow to dry before placing in the dry waste bin."
+        ],
+        "environmental_impact_note": "Source segregation of plastics enables mechanical recycling, prevents microplastic accumulation, and supports Extended Producer Responsibility (EPR)."
+      },
+      "verification_metadata": {
+        "status": "verified_general_guidance",
+        "source_name": "MoEFCC & CPCB - Plastic Waste Management Rules & EPR",
+        "source_url": "https://cpcb.nic.in/plastic-waste-management/",
+        "source_type": "government",
+        "last_verified": "2026-09-13"
+      }
+    },
+    {
+      "id": "textile_trash",
+      "display_name": "Textile Trash",
+      "description": "Used clothing, rags, fabric scraps, worn shoes, and household linens.",
+      "general_disposal_category": "Dry Waste / Special Textile Collection",
+      "guidance": {
+        "summary": "Textiles should be kept dry and separate. Usable clothing should be donated; unwearable textiles should go to textile recycling drives or ULB dry waste collection.",
+        "do_s": [
+          "Donate wearable clothing to local shelters or donation drives.",
+          "Keep unwearable fabric scraps clean and dry for specialized textile recycling or dry waste collection.",
+          "Reuse old cotton fabrics as household cleaning rags."
+        ],
+        "dont_s": [
+          "Do not mix wet or soiled textiles into general organic waste bins.",
+          "Do not burn synthetic textiles."
+        ],
+        "preparation_steps": [
+          "Wash and dry items.",
+          "Separate usable garments from damaged scrap fabrics."
+        ],
+        "environmental_impact_note": "Reusing and recycling textiles extends fabric lifecycles and diverts bulky waste from municipal landfills."
+      },
+      "verification_metadata": {
+        "status": "partially_verified",
+        "source_name": "MoHUA - Swachh Bharat Mission Urban (SBM-U 2.0)",
+        "source_url": "https://sbmurban.org/",
+        "source_type": "government",
+        "last_verified": "2026-09-13"
+      }
+    },
+    {
+      "id": "vegetation",
+      "display_name": "Vegetation",
+      "description": "Garden waste, leaves, grass clippings, weeds, small plant trimmings, and flowers.",
+      "general_disposal_category": "Organic Waste / Horticulture Waste",
+      "guidance": {
+        "summary": "Vegetation and horticulture waste should be composted or processed through municipal green waste streams.",
+        "do_s": [
+          "Segregate garden trimmings and leaves for home or community composting.",
+          "Hand over horticulture waste to municipal green waste collection drives.",
+          "Use dry leaves as mulch around plants or trees."
+        ],
+        "dont_s": [
+          "Do not burn dry leaves or garden waste (strictly prohibited under clean air regulations).",
+          "Do not mix plastic pots, synthetic ties, rocks, or pesticides with vegetation waste."
+        ],
+        "preparation_steps": [
+          "Remove plastic tags, pots, or wire ties.",
+          "Bundle small trimmings if required by local collection guidelines."
+        ],
+        "environmental_impact_note": "Composting garden waste enriches topsoil and prevents smoke pollution from leaf burning."
+      },
+      "verification_metadata": {
+        "status": "verified_general_guidance",
+        "source_name": "MoEFCC & CPCB - Solid Waste Management",
+        "source_url": "https://cpcb.nic.in/solid-waste-management/",
+        "source_type": "government",
+        "last_verified": "2026-09-13"
+      }
+    }
+  ]
+}

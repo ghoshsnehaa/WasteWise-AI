@@ -1,0 +1,173 @@
+{
+  "model_checkpoint": "models\\resnet18_best.pth",
+  "test_sample_count": 713,
+  "evaluation_time_sec": 33.46,
+  "overall_accuracy": 0.7546,
+  "macro_avg": {
+    "precision": 0.7645,
+    "recall": 0.7716,
+    "f1_score": 0.76
+  },
+  "weighted_avg": {
+    "precision": 0.7715,
+    "recall": 0.7546,
+    "f1_score": 0.7549
+  },
+  "per_class": {
+    "cardboard": {
+      "precision": 0.7846,
+      "recall": 0.7391,
+      "f1_score": 0.7612,
+      "support": 69.0
+    },
+    "food_organics": {
+      "precision": 0.9623,
+      "recall": 0.8226,
+      "f1_score": 0.887,
+      "support": 62.0
+    },
+    "glass": {
+      "precision": 0.5556,
+      "recall": 0.873,
+      "f1_score": 0.679,
+      "support": 63.0
+    },
+    "metal": {
+      "precision": 0.7638,
+      "recall": 0.822,
+      "f1_score": 0.7918,
+      "support": 118.0
+    },
+    "miscellaneous_trash": {
+      "precision": 0.7419,
+      "recall": 0.6133,
+      "f1_score": 0.6715,
+      "support": 75.0
+    },
+    "paper": {
+      "precision": 0.7342,
+      "recall": 0.7733,
+      "f1_score": 0.7532,
+      "support": 75.0
+    },
+    "plastic": {
+      "precision": 0.8137,
+      "recall": 0.6014,
+      "f1_score": 0.6917,
+      "support": 138.0
+    },
+    "textile_trash": {
+      "precision": 0.6441,
+      "recall": 0.7917,
+      "f1_score": 0.7103,
+      "support": 48.0
+    },
+    "vegetation": {
+      "precision": 0.8806,
+      "recall": 0.9077,
+      "f1_score": 0.8939,
+      "support": 65.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      51,
+      0,
+      3,
+      4,
+      0,
+      10,
+      1,
+      0,
+      0
+    ],
+    [
+      3,
+      51,
+      1,
+      0,
+      4,
+      0,
+      0,
+      0,
+      3
+    ],
+    [
+      0,
+      0,
+      55,
+      2,
+      1,
+      0,
+      3,
+      2,
+      0
+    ],
+    [
+      1,
+      0,
+      7,
+      97,
+      4,
+      2,
+      3,
+      2,
+      2
+    ],
+    [
+      3,
+      1,
+      2,
+      4,
+      46,
+      5,
+      5,
+      7,
+      2
+    ],
+    [
+      4,
+      0,
+      1,
+      1,
+      1,
+      58,
+      7,
+      3,
+      0
+    ],
+    [
+      2,
+      0,
+      24,
+      19,
+      2,
+      1,
+      83,
+      7,
+      0
+    ],
+    [
+      1,
+      0,
+      3,
+      0,
+      3,
+      2,
+      0,
+      38,
+      1
+    ],
+    [
+      0,
+      1,
+      3,
+      0,
+      1,
+      1,
+      0,
+      0,
+      59
+    ]
+  ]
+}
